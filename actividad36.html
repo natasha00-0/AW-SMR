@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla</title>
+    <meta name="description" content="Esto es la descripción de mi página web">
+    <meta name="keywords" content="html, ejercicio, ejercicio1">
+    <meta name="author" content="Natasha">
+    <meta name="application-name" content="Plantilla.html">
+    <meta name="generator" content="VSCode">
+    <link rel="icon" sizes="64x64" href="assets/icons/perro.png">
+</head>
+<body>
+    
+</body>
+
+<title>Formulario Estructurado</title>
+<style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .formulario-contenedor {
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        
+        fieldset {
+            border: 1px solid #000;
+            padding: 10px 20px 20px 20px;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            font-weight: bold;
+            padding: 0 10px;
+    
+            margin-left: -5px;
+        }
+
+        .campo {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 200px;
+            padding: 5px;
+            border: 1px solid #aaa;
+        }
+        
+        
+        #dni {
+            width: 100px; 
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="formulario-contenedor">
+        <h2>Formulario estructurado</h2>
+        
+        <fieldset>
+            <legend>Datos personales</legend>
+            
+            <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            
+            <div class="campo">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" name="apellidos">
+            </div>
+            
+            <div class="campo">
+                <label for="dni">DNI</label>
+                <input type="text" id="dni" name="dni">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de conexión</legend>
+            
+            <div class="campo">
+                <label for="usuario">Nombre de usuario</label>
+                <input type="text" id="usuario" name="usuario">
+            </div>
+            
+            <div class="campo">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena">
+            </div>
+            
+            <div class="campo">
+                <label for="repContrasena">Repite la contraseña</label>
+                <input type="password" id="repContrasena" name="repContrasena">
+            </div>
+        </fieldset>
+    </div>
+
+</body>
+</html>
+
+    
+
